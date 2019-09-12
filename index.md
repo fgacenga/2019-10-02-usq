@@ -304,7 +304,7 @@ eventbrite:  55608088289         # optional: alphanumeric key for Eventbrite reg
     Bash is a commonly-used shell that gives you the power to do simple
     tasks more quickly.
   </p>
-
+{% comment %}
   <div class="row">
     <div class="col-md-4">
       <h4 id="shell-windows">Windows</h4>
@@ -323,7 +323,7 @@ eventbrite:  55608088289         # optional: alphanumeric key for Eventbrite reg
     </div>
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
-
+{% endcomment %}
 
 <div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
   <h3>Text Editor</h3>
@@ -331,14 +331,9 @@ eventbrite:  55608088289         # optional: alphanumeric key for Eventbrite reg
   <p>
     When you're writing code, it's nice to have a text editor that is
     optimized for writing code, with features like automatic
-    color-coding of key words. The default text editor on macOS and
-    Linux is usually set to Vim, which is not famous for being
-    intuitive. If you accidentally find yourself stuck in it, hit
-    the <kbd>Esc</kbd> key, followed by <kbd>:</kbd>+<kbd>Q</kbd>+<kbd>!</kbd> 
-    (colon, lower-case 'q', exclamation mark), then hitting <kbd>Return</kbd> to 
-    return to the shell.
+    color-coding of key words.  We will use Nano which will be pre-installed in the supplied VM.
   </p>
-
+{% comment %}
   <div class="row">
     <div class="col-md-4">
       <h4 id="editor-windows">Windows</h4>
@@ -385,6 +380,7 @@ eventbrite:  55608088289         # optional: alphanumeric key for Eventbrite reg
     </div>
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
+{% endcomment %}
 
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
@@ -395,12 +391,9 @@ eventbrite:  55608088289         # optional: alphanumeric key for Eventbrite reg
   <p>
     <a href="https://python.org">Python</a> is a popular language for
     research computing, and great for general-purpose programming as
-    well.  Installing all of its research packages individually can be
-    a bit difficult, so we recommend
-    <a href="https://www.anaconda.com/distribution/">Anaconda</a>,
-    an all-in-one installer.
+    well.  Participants will be supplied with access to a Virtual Machine for the workshop.
   </p>
-
+{% comment %}
     <p>
       Regardless of how you choose to install it,
       <strong>please make sure you install Python version 3.x</strong>
@@ -505,3 +498,4 @@ eventbrite:  55608088289         # optional: alphanumeric key for Eventbrite reg
   </ol>
 </div>
 {% endcomment %}
+{% comment %}
