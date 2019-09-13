@@ -308,7 +308,7 @@ eventbrite:  55608088289         # optional: alphanumeric key for Eventbrite reg
   <div class="row">
     <div class="col-md-4">
       <h4 id="shell-windows">Windows</h4>
-      We will supply Windows participants access to a VM running Linux. For Windows computers please install PuTTY. PuTTY is an SSH and telnet client. Install from <a href="http://www.putty.org/">PuTTY installer</a> or or if using a USQ computer from within USQ install from <a href="https://kace.usq.edu.au/userui/software_detail.php?ID=452">USQ KACE</a>.
+      We will supply Windows participants access to a Virtual Machine (VM) running Linux. For Windows computers please install PuTTY. PuTTY is an SSH and telnet client. Install from <a href="http://www.putty.org/">PuTTY installer</a> or or if using a USQ computer from within USQ install from <a href="https://kace.usq.edu.au/userui/software_detail.php?ID=452">USQ KACE</a>.
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       
     </div>
@@ -391,7 +391,7 @@ eventbrite:  55608088289         # optional: alphanumeric key for Eventbrite reg
   <p>
     <a href="https://python.org">Python</a> is a popular language for
     research computing, and great for general-purpose programming as
-    well.  Participants will be supplied with access to a Virtual Machine for the workshop.
+    well.  Participants will be supplied with access to a VM for the workshop.
   </p>
 {% comment %}
     <p>
